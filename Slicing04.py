@@ -6,5 +6,6 @@ def main(s,n):
         n(int): parameter
     Returns:
         str: answer
-    """
-    return
+    """ 
+    return s[0:n:1]
+print(main("negative",2))
