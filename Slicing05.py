@@ -7,4 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    y=s[-1:-n:-1]
+    return y[::-1]
+print(main("codeschooluz",4))
